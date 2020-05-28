@@ -1,0 +1,4 @@
+cd /home/bgao/dockerTest
+docker stop helloworld
+docker build -t hello-world /home/bgao/dockerTest/
+docker run -d --name hellowworld -p 80:80 -v /home/bgao/dockerTest/src/:/var/www/html hello-world
